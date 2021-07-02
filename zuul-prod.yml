@@ -1,0 +1,5 @@
+#ip请求限制的参数配置
+blackIp:
+  continueCounts: 35          #ip连续请求的次数
+  timeInterval: 10          #ip判断的时间间隔，单位：秒
+  limitTimes: 600               #限制的时间，单位：秒
